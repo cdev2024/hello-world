@@ -7,7 +7,7 @@ public class javaEx01 {
 	public static void main(String[] args) {
 		// 콘솔 출력
 		System.out.println("Hello, Java!");      // 줄바꿈 o
-		System.out.print("Enter yout name: ");   // 줄바꿈 x
+		System.out.print("Enter your name: ");   // 줄바꿈 x
 		
 		
 		// 콘솔 입력
@@ -57,6 +57,37 @@ public class javaEx01 {
 		} else {
 			System.out.println(num + " is an odd number.");
 		}
-	}
+		
+		if ( num < 10 ) System.out.println(num + "은 한자리 숫자입니다.");
+		else if( num < 100 ) System.out.println(num + "은 두자리 숫자입니다.");
+		else if( num < 1000 ) System.out.println(num + "은 세자리 숫자입니다.");
+		
+		// switch
+		switch(num) { // switch문의 변수는 프리미티브 타입
+		case 1: System.out.println("일");
+			break;
+		case 2: System.out.println("이");
+			System.out.println("둘");
+			break;
+		default:
+			System.out.println("아무것도 아님");
+			break;
+		}//end of switch
+		
+		// 반복문
+		// for : 고정된 횟수만큼.
+		// for ~ each : 배열이나 컬렉션의 모든 요소를 순차적으로 반복
+		// while: 조건식이 참인동안 반복
+		// do-while : 코드 블록을 먼저 실행하고 , 조건식이 참이면 반복실행
+		
+		// 내일
+		/*
+		 * 반복문
+		 * 배열과 반복문
+		 * java.util.Arrays 클래스
+		 * */
+		
+		sc.close();
+	}//end of main()
 
 }
