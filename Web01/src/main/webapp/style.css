@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* Type Selector : 특정 태그 */
+h2 {
+    color: blue;
+    background-color: green;
+}
+
+/* Class Selector: 클래스 이름으로 */
+.ex {
+    color:red;
+}
+
+/* ID Selector */
+#block {
+    background-color: orange;
+}
+
+#inline span {
+    color: violet;
+}
+
+#inline {
+    color: orange;
+}
+
+#inline_block {
+    border-style:solid;
+    border-width: 10;
+    border-color: blue;
+}
+
+
+h2 {
+    color: black;
+}
