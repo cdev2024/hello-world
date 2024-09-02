@@ -1,5 +1,4 @@
-# hello-world 
+# java-ex
 ### README.md : 리포지토리를 설명하는 파일/모든 repo에 권장
-Hello World repository for Git
-This is an example repository for the Git
+* java 프로그래밍 언어 실습 파일
 
